@@ -10,7 +10,7 @@ function App() {
     setTasks(data);
   }, []);
 
-  function createTask(titleTask, descriptionTask) {
+  function createTask(task) {
     setTasks([
       ...tasks,
       {

@@ -6,7 +6,7 @@ function TaskForm({ createTask }) {
 
   const handlerSubmit = (e) => {
     e.preventDefault();
-    createTask(title, description);
+    createTask({ title, description });
   };
   return (
     <>
