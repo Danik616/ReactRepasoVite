@@ -10,12 +10,12 @@ function App() {
     setTasks(data);
   }, []);
 
-  function createTask(titleTask) {
+  function createTask(titleTask, descriptionTask) {
     setTasks([
       ...tasks,
       {
         title: titleTask,
-        description: "algo",
+        description: descriptionTask,
         id: tasks.length,
       },
     ]);
