@@ -14,8 +14,8 @@ function App() {
     setTasks([
       ...tasks,
       {
-        title: titleTask,
-        description: descriptionTask,
+        title: task.title,
+        description: task.description,
         id: tasks.length,
       },
     ]);
